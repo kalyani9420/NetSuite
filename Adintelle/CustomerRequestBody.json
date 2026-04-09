@@ -1,0 +1,7 @@
+{
+    "RequestBody" : {
+        "companyname" : "Test Customer 001 - Media",
+        "primarysubsidiary" : 1,
+        "registartiontype" : 1
+    }
+}
