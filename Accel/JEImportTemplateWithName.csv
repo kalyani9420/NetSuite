@@ -1,0 +1,28 @@
+External ID,Memo,Subsidiary,Date,Entry No,Account,Debit,Credit,Department,Name
+"This is the unique backend identifier. If there are multiple lines associated with the same journal entry, an external ID is required to inform the system that these lines belong to the same entry. Any alphanumeric value can be enter as an external ID.","HEADER 
+
+Memo of this transaction","HEADER 
+
+Select the subsidiary associated with this transaction.","HEADER
+
+Enter the date on which the JE is to be created. Date should be entered in the format  DD/MM/YYYY.","HEADER 
+
+Enter a identifier transaction number","LINES
+
+This is a reference to the GL account against which the amounts have to be posted.  The complete hierarchy of the accounts should be provided if you want to refer to a child account. The expected format is Child Account Number Parent Account Name : Child Account Name.
+
+The account must be setup in Lists > Accounting > Accounts prior to import.","LINES
+
+Enter the debit amount in this field. ","LINES
+
+Enter the credit amount in this field. ","LINES
+
+Select Department for the current line.","LINES
+
+Select Customer/Vendor/Employee for the current line."
+1002,Test Journal Entry 23 / 02,Accel : Accel India : Accel India Management Company Pvt Ltd,02/23/2025,2302,10200 Share premium,,4500,,
+1002,Test Journal Entry 23 / 02,Accel : Accel India : Accel India Management Company Pvt Ltd,02/23/2025,2302,10300 Retained Earnings,1000,,IT department,Aarzoo
+1002,Test Journal Entry 23 / 02,Accel : Accel India : Accel India Management Company Pvt Ltd,02/23/2025,2302,30502 Provisions : Provision for Gratuity,1500,,IT department,Aarthi Vasudevan
+1002,Test Journal Entry 23 / 02,Accel : Accel India : Accel India Management Company Pvt Ltd,02/23/2025,2302,10300 Retained Earnings,2000,,IT department,ACME Events India
+1003,Test Journal Entry 24 / 02,Accel : Accel India : Accel India Management Company Pvt Ltd,02/24/2025,2402,10200 Share premium,,1000,,
+1003,Test Journal Entry 24 / 02,Accel : Accel India : Accel India Management Company Pvt Ltd,02/24/2025,2402,30502 Provisions : Provision for Gratuity,1000,,IT department,Aarzoo

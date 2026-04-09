@@ -1,0 +1,5 @@
+External ID,Memo,Subsidiary,Date,Entry No,Account,Credit,Debit,Department,Name
+1001,Test Journal Entry 09 / 03,30,09/12/2025,090326,1050,4500,,IT department,3433
+1001,Test Journal Entry 09 / 03,30,09/12/2025,090326,52,,1000,IT department,3433
+1001,Test Journal Entry 09 / 03,30,09/12/2025,090326,52,,1500,IT department,3433
+1001,Test Journal Entry 09 / 03,30,09/12/2025,090326,52,,2000,IT department,3433
